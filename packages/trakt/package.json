@@ -1,0 +1,38 @@
+{
+  "name": "trakt-ts",
+  "version": "0.0.1",
+  "description": "A thin TypeScript client to interact with the Trakt.tv API",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "test": "jest --group=unit --detectOpenHandles --coverage --verbose",
+    "lint": "eslint --ext .ts --no-error-on-unmatched-pattern src tests",
+    "lint-fix": "eslint --fix --ext .ts --no-error-on-unmatched-pattern src tests"
+  },
+  "keywords": [
+    "ts",
+    "typescript",
+    "trakt",
+    "trakt.tv",
+    "trackt",
+    "api"
+  ],
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Andrea Amorosi",
+    "email": "dreamorosi@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreamorosi/tv-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dreamorosi/tv-utils/issues"
+  },
+  "dependencies": {
+    "phin": "^3.7.0"
+  }
+}
